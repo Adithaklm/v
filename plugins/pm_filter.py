@@ -843,7 +843,7 @@ async def auto_filter(client, msg, spoll=False):
         )
     else:
         tic = f"https://telegra.ph/file/cd60770fbe1b21d8739fa.jpg"
-        cap =script.IDM_TEXT.format(search, message.from_user.mention, temp.B_NAME) 
+        cap =script.IDM_TEXT.format(search, temp.B_NAME, temp.B_NAME) 
     if imdb and imdb.get('poster'):
         try:
             await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
