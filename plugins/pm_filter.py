@@ -667,8 +667,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         monsize = get_size(monsize)
         free = get_size(free)
         await asyncio.sleep(1) 
-        await m.delete(1)
-        await query.message.reply_photo(
+        await z.delete(1)
+        z=await query.message.reply_photo(
             caption=script.STATUS_TXT.format(total, users, chats, monsize, free),
             photo="https://telegra.ph/file/7ac0c39e477b1e0774db1.jpg", 
             reply_markup=reply_markup,
