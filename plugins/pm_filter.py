@@ -572,7 +572,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer("⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯\nᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ\n⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯\n\nɢᴏ ᴛᴏ ɢᴏᴏɢʟᴇ ➠ ᴛʏᴘᴇ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ ➠ ᴄᴏᴘʏ ᴄᴏʀʀᴇᴄᴛ ɴᴀᴍᴇ ➠ ᴘᴀꜱᴛᴇ ᴛʜɪꜱ ɢʀᴏᴜᴘ\n\nᴇxᴀᴍᴘʟᴇ : ᴋɢꜰ ᴄʜᴀᴘᴛᴇʀ 2  2022\n\n🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./)\n\n©  ᴄɪɴɪᴍᴀʟᴏᴋʜᴀᴍ", show_alert=True)
 
     elif query.data == "moviis":  
-        await query.answer("⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯\nꜱᴇʀɪᴇꜱ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ\n⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯\n\nɢᴏ ᴛᴏ ɢᴏᴏɢʟᴇ ➠ ᴛʏᴘᴇ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ ➠ ᴄᴏᴘʏ ᴄᴏʀʀᴇᴄᴛ ɴᴀᴍᴇ ➠ ᴘᴀꜱᴛᴇ ᴛʜɪꜱ ɢʀᴏᴜᴘ\n\nᴇxᴀᴍᴘʟᴇ : ʟᴏᴋɪ S01 E01\n\n🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./)\n\n© ᴄɪɴɪᴍᴀʟᴏᴋʜᴀᴍ", show_alert=True)   
+        await query.answer(" ⛔️ ᴛɪᴘs ғᴏʀ ᴅᴏᴡɴʟᴏᴀᴅ\n\nɪғ ʏᴏᴜ ɢᴇᴛ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴍᴏᴠɪᴇ ғʀᴏᴍ ʙᴏᴛ sᴛᴏʀᴇ ᴛʜᴇ ᴀɴʏᴡʜᴇʀᴇ\n\nᴛʜᴇ ᴍᴏᴠɪᴇ ғɪʟᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇ ᴀғᴛᴇʀ 𝟻 ʜᴏᴜʀs ᴘʟᴇᴀsᴇ ɴᴏᴛᴇ ", show_alert=True)   
 
     elif query.data == "autofilter":
         buttons = [[
@@ -843,7 +843,7 @@ async def auto_filter(client, msg, spoll=False):
         [
             InlineKeyboardButton(f'ɪɴꜰᴏ', 'movieinfo'),
             InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'movss'),
-            InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'moviis')
+            InlineKeyboardButton(f'ᴛɪᴘs', 'moviis')
         ]
     )
 
