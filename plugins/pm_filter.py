@@ -181,9 +181,16 @@ async def advantage_spoll_choker(bot, query):
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
         else:
-            k = await query.message.edit('ᴛʜɪs ᴍᴏᴠɪᴇ ɴᴏᴛ ғᴏᴜɴᴅ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ ᴘʟᴇᴀsᴇ ᴀsᴋ ᴛᴏ ᴀᴅᴍɪɴ ᴛᴏ ᴀᴅᴅ ᴛʜɪs ᴍᴏᴠɪᴇ ᴇxᴀᴍᴘʟᴇ @admin Malik ᴏᴋ')
-            await asyncio.sleep(10)
-            await k.delete()
+            btn = [[
+                InlineKeyboardButton('👨‍💻 ᴀᴅᴍɪɴ', url='https://t.me/adpsycho'),
+                InlineKeyboardButton('👨‍💼 ᴏᴡɴᴇʀ', url='https://t.me/Brocklesnarqt')
+            ],[
+                InlineKeyboardButton('🤖 ᴄɪɴᴇᴍᴀ ᴄᴏᴍᴘᴀɴʏ ɢʀᴏᴜᴘ ʜᴇʟᴘᴇʀ', url='https://t.me/Cm_feedbackerbot')
+            ]]           
+        k=await query.message.reply_photo(photo="https://telegra.ph/file/4db5865a30975652f9fa1.jpg", caption=script.REQ_MOV, reply_markup=InlineKeyboardMarkup(btn))    
+        await asyncio.sleep(500)
+        await k.delete()
+        await msg.delete()
 
 
 @Client.on_callback_query()
@@ -970,8 +977,9 @@ async def advantage_spell_chok(msg):
         )
     ] for k, movie in enumerate(movielist)]
     btn.append([InlineKeyboardButton(text="Close", callback_data=f'spolling#{user}#close_spellcheck')])
-    await msg.reply("I couldn't find anything related to that\nDid you mean any one of these?",
-                    reply_markup=InlineKeyboardMarkup(btn))
+    k = await msg.reply("I couldn't find anything related to that\nDid you mean any one of these?", reply_markup=InlineKeyboardMarkup(btn))
+    await asyncio.sleep(13)
+    await k.delete()
 
 
 async def manual_filters(client, message, text=False):
