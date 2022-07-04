@@ -582,7 +582,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer("📮 Iғ Yᴏᴜ Nᴏᴛ Gᴇᴛ Yᴏᴜʀ Rᴇǫᴜᴇsᴛ Mᴏᴠɪᴇ Pʟᴇᴀsᴇ Mᴇɴᴛɪᴏɴ Aᴅᴍɪɴ\n\n1⃣ @admin < movie name >\n\n2⃣ Cʜᴇᴄᴋ Hᴇʟᴘᴇʀ Bᴏᴛ Aɴᴅ Rᴇᴘᴏʀᴛ Issᴜᴇ Bᴏᴛ Lɪɴᴋ Gɪᴠᴇɴ Bᴇʟᴏᴡ\n\n©CɪɴᴇᴍᴀCᴏᴍᴘᴀɴʏ", show_alert=True)   
 
     elif query.data == "tipsto":  
-        await query.answer(" ⛔️ ᴛɪᴘs ғᴏʀ ᴅᴏᴡɴʟᴏᴀᴅ\n\nɪғ ʏᴏᴜ ɢᴇᴛ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴍᴏᴠɪᴇ ғʀᴏᴍ ʙᴏᴛ sᴛᴏʀᴇ ᴛʜᴇ ᴀɴʏᴡʜᴇʀᴇ\n\nᴛʜᴇ ᴍᴏᴠɪᴇ ғɪʟᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇ ᴀғᴛᴇʀ 𝟻 ʜᴏᴜʀs ᴘʟᴇᴀsᴇ ɴᴏᴛᴇ\n\n© ᴄɪɴᴇᴍᴀᴄᴏᴍᴘᴀɴʏ ", show_alert=True)   
+        await query.answer("📗 - Pʟᴇᴀsᴇ Tʏᴘᴇ Mᴏᴠɪᴇ Cᴏʀʀᴇᴄᴛ Sᴘᴇʟʟɪɴɢ Lɪᴋᴇ Gᴏᴏɢʟᴇ\n\n📗 - Pʟᴇᴀsᴇ Eɴᴛᴇʀ Mᴏᴠɪᴇ Yᴇᴀʀ Lɪᴋᴇ ➤ Mᴀʟɪᴋ 𝟸𝟶𝟸𝟷\n\n©CɪɴᴇᴍᴀCᴏᴍᴘᴀɴʏ ", show_alert=True)   
 
 
     elif query.data == "autofilter":
