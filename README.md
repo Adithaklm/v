@@ -2,7 +2,7 @@
   <img src="assets/20220601_141653.jpg" alt="Eva Maria Logo">
 </p>
 <h1 align="center">
-  <b>Eva Maria Bot</b>
+  <b>ＴＯＶＩＮＯ </b>
 </h1>
 
 
@@ -17,10 +17,10 @@
 
 ## Features
 
-- [x] Auto Filter
-- [x] Manual Filter
-- [x] IMDB
-- [x] Admin Commands
+- [x] Aᴜᴛᴏ Fɪʟᴛᴇʀ
+- [x] Mᴀɴᴜᴀʟ Fɪʟᴛᴇʀ
+- [x] Iᴍᴅʙ
+- [x] Aᴅᴍɪɴ Cᴏᴍᴍᴀɴᴅs
 - [x] Broadcast
 - [x] Index
 - [x] IMDB search
