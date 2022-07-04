@@ -182,7 +182,7 @@ async def advantage_spoll_choker(bot, query):
             await auto_filter(bot, query, k)
         else:
             btn = [[
-                InlineKeyboardButton('👨‍💻 ᴀᴅᴍɪɴ', url='https://t.me/adpsycho'),
+                InlineKeyboardButton(f'👨‍💻 ᴀᴅᴍɪɴ', 'admoni'),
                 InlineKeyboardButton('👨‍💼 ᴏᴡɴᴇʀ', url='https://t.me/Brocklesnarqt')
             ],[
                 InlineKeyboardButton('🤖 ᴄɪɴᴇᴍᴀ ᴄᴏᴍᴘᴀɴʏ ɢʀᴏᴜᴘ ʜᴇʟᴘᴇʀ', url='https://t.me/Cm_feedbackerbot')
@@ -580,6 +580,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "moviis":  
         await query.answer(" ⛔️ ᴛɪᴘs ғᴏʀ ᴅᴏᴡɴʟᴏᴀᴅ\n\nɪғ ʏᴏᴜ ɢᴇᴛ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴍᴏᴠɪᴇ ғʀᴏᴍ ʙᴏᴛ sᴛᴏʀᴇ ᴛʜᴇ ᴀɴʏᴡʜᴇʀᴇ\n\nᴛʜᴇ ᴍᴏᴠɪᴇ ғɪʟᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇ ᴀғᴛᴇʀ 𝟻 ʜᴏᴜʀs ᴘʟᴇᴀsᴇ ɴᴏᴛᴇ\n\n© ᴄɪɴᴇᴍᴀᴄᴏᴍᴘᴀɴʏ ", show_alert=True)   
+
+    elif query.data == "admoni":  
+        await query.answer("❌ Aᴅᴍɪɴ Iᴅ Aɴᴅ Oᴡɴᴇʀ Iᴅ Hᴀᴅ Bᴇ Rᴇᴍᴏᴠᴇᴅ.", show_alert=True)   
+    
 
     elif query.data == "autofilter":
         buttons = [[
